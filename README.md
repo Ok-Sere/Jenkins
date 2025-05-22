@@ -56,6 +56,38 @@ This image confirms that Jenkins is successfully set up and ready to use.
 **Step 12: Jenkins Dashboard**  
 Finally, you are taken to the Jenkins dashboard, where you can start creating and managing your CI/CD pipelines.
 
+![1](./img/12.%20jenkins%20new.jpg)  
+**Step 13: Creating a New Jenkins Job**  
+This image shows the process of creating a new job in Jenkins. Click on "New Item" to start configuring a new project or pipeline.
+
+![1](./img/13.%20freestyle%20project.jpg)  
+**Step 14: Selecting Freestyle Project**  
+Here, you select "Freestyle project" as the type of job. Freestyle projects are flexible and allow you to configure simple or complex build steps.
+
+![1](./img/14.%20git%20hub.jpg)  
+**Step 15: Connecting to GitHub**  
+This step demonstrates how to connect your Jenkins job to a GitHub repository. Enter the repository URL so Jenkins can pull your code for building and testing.
+
+![1](./img/15a.%20build%20one.jpg)  
+**Step 16: Configuring Build Steps**  
+In this image, you configure the build steps for your project. This could include compiling code, running tests, or any other build actions required for your application.
+
+![1](./img/16.%20trigger.jpg)  
+**Step 17: Setting Build Triggers**  
+Here, you set up build triggers, such as polling the repository or using webhooks, so Jenkins knows when to start a new build automatically.
+
+![1](./img/17.%20webhook.jpg)  
+**Step 18: Configuring GitHub Webhook**  
+This image shows the configuration of a webhook in GitHub. The webhook notifies Jenkins whenever there is a new commit, triggering an automated build.
+
+![1](./img/18.%20config.jpg)  
+**Step 19: Reviewing Job Configuration**  
+Before saving, review all your job configurations to ensure everything is set up correctly, including source control, build steps, and triggers.
+
+![1](./img/19.%20done.jpg)  
+**Step 20: Build Pipeline Complete**  
+This final image confirms that your Jenkins job is set up and has run successfully. You can now see the build history and results on the dashboard.
+
 ## Conclusion
 
 By following these steps, you have successfully installed and configured Jenkins, laying the foundation for implementing CI/CD in your projects. Jenkins streamlines the software development process, enabling teams to deliver high-quality applications faster and more reliably. Explore Jenkins further to take full advantage of its powerful automation capabilities.
