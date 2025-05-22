@@ -88,7 +88,19 @@ Before saving, review all your job configurations to ensure everything is set up
 **Step 20: Build Pipeline Complete**  
 This final image confirms that your Jenkins job is set up and has run successfully. You can now see the build history and results on the dashboard.
 
+![1](./img/20.%20testing.jpg)  
+**Step 21: Testing the Pipeline**  
+This screenshot shows the process of running a test build in Jenkins. Here, you can observe the build being triggered, which helps verify that your configuration and triggers are working as expected.
+
+![1](./img/21%20result.jpg)  
+**Step 22: Build Results**  
+This image displays the results of the build process. Jenkins provides detailed feedback, including logs and status indicators, so you can quickly identify if the build was successful or if there were any issues.
+
+![1](./img/22.%20git%20hub%20result.jpg)  
+**Step 23: GitHub Integration Results**  
+This screenshot demonstrates the integration between Jenkins and GitHub. It shows how build statuses and results are reflected back in your GitHub repository, providing visibility into the CI/CD process directly from your version control platform.
+
 ## Conclusion
 
-By following these steps, you have successfully installed and configured Jenkins, laying the foundation for implementing CI/CD in your projects. Jenkins streamlines the software development process, enabling teams to deliver high-quality applications faster and more reliably. Explore Jenkins further to take full advantage of its powerful automation capabilities.
+By following these steps, you have successfully installed and configured Jenkins, created and tested a CI/CD pipeline, and integrated it with GitHub for automated builds and feedback. The images and explanations above guide you through each stage, from initial setup to verifying build results and GitHub integration. Jenkins streamlines the software development process, enabling teams to deliver high-quality applications faster and more reliably. Continue exploring Jenkins to leverage its full automation capabilities and further enhance your CI/CD workflows.
 
